@@ -3,7 +3,7 @@ import { Image } from "../atoms/Image"
 import HeroImg1 from "../../assets/hero/jgym1.jpeg"
 import HeroImg2 from "../../assets/hero/jgym2.jpeg"
 import HeroImg3 from "../../assets/hero/jgym3.jpeg"
-import JuniorsLogo from "../../assets/shared/juniors-gym-logo-nobg.png"
+import JuniorsImg from '../../assets/juniors-gym-logo-nobg.png'
 import { HeroTexts } from "../particles/Data";
 import Slider from "react-slick";
 import { Text } from "../atoms/Text";
