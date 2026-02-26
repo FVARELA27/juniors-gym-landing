@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import NavbarLogo from '../../assets/navbar-logo.png'
 import { NavLinks } from "../particles/Data"
 import { List } from "../atoms/List";
 import { NavLink } from "react-router-dom";
@@ -27,11 +28,7 @@ const NavBar = () => {
         <header className="w-full h-auto bg-transparent overflow-x-hidden fixed z-50 top-0 left-0">
             <nav className={`w-full lg:h-28 md:h-24 h-20 ${navBarColor ? "bg-zinc-900" : " bg-transparent"} lg:px-16 md:px-9 px-8 flex justify-between items-center`}>
                 <a href="https://www.juniorsgym.site" className="font-extrabold flex items-center relative md:text-2xl text-lg">
-                    <Text as="span" className="text-purple-800 absolute -top-3 md:left-5 left-3">
-                        <Barbell size={25} color="currentColor" weight="fill" />
-                    </Text>
-                    <Text as="span" className="text-white">Junior's</Text>
-                    <Text as="span" className="bg-gradient-to-r text-purple-700 bg-clip-text">Gym</Text>
+                    <img src={NavbarLogo} alt="Junior's Gym" className="h-8 w-auto" />
                 </a>
                 {/* <div className="lg:flex hidden items-center h-full gap-20">
                     <ul className="flex items-center justify-center h-full gap-4 relative before:w-full before:h-0.5 before:absolute before:bottom-0 before:left-0 before:bg-zinc-400">
