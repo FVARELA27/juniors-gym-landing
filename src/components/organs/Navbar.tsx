@@ -3,9 +3,9 @@ import NavbarLogo from '../../assets/navbar-logo.png'
 import { NavLinks } from "../particles/Data"
 import { List } from "../atoms/List";
 import { NavLink } from "react-router-dom";
-import { ArrowCircleRight, Barbell, CirclesFour } from "@phosphor-icons/react";
+import { ArrowCircleRight, CirclesFour } from "@phosphor-icons/react";
 import { Link } from "react-router-dom";
-import { Text } from "../atoms/Text";
+
 
 const NavBar = () => {
     const [open, setOpen] = useState(false)
