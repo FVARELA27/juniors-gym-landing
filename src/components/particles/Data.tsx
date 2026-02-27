@@ -115,8 +115,8 @@ export const TestimonialTexts = {
   secondText: "Lo que opinan nuestros clientes",
   feedBacks: [
       {
-          text: "He venido a Junior's Gym desde hace seis meses y me siento mejor que nunca",
-          person: "Gustavo Zuppa",
+          text: "Excelente servicio, aparatos en buen estado y súper limpio. Su trato hacia las personas siempre es con educación y amabilidad 💫💫💫…",
+          person: "Perla Xochitl",
           type: "Cliente"
       },
       {
