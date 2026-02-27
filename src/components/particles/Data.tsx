@@ -83,19 +83,19 @@ export const MembershipPlans = {
   secondText: "Planes de membresía",
   cards: [
       {
-          amount: 40,
+          amount: 65,
           duration: "día",
           caption: "Visita de entrenamiento",
           benefits: ["Visita individual", "Sin límite de tiempo por día", "Acercamiento con entrenadores", "Disponibilidad de todos los aparatos"]
       },
       {
-          amount: 280,
+          amount: 350,
           duration: "mensual",
           caption: "Pago por mes",
           benefits: ["Plan con entrenador full", "Aparatos, pesas y cardio", "Análisis de masa corporal", "Orientación fitness"]
       },
       {
-          amount: 3080,
+          amount: 3850,
           duration: "anual",
           caption: "Membresía anual",
           benefits: ["Un mes gratis", "Asesoría personalizada full", "Entrenamientos personalizados", "Orientación fitness"]
