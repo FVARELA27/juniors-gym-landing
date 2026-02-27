@@ -120,13 +120,13 @@ export const TestimonialTexts = {
           type: "Cliente"
       },
       {
-          text: "Los entrenamientos siempre han sido personalizados y a medida, he alcanzado mis metas muy rápido",
-          person: "Juan Perez",
+          text: "Ambiente agradable, equipo nuevo, buena iluminación, atención personal de propietarios, excelente lugar.",
+          person: "Emiliano Mosqueda",
           type: "Cliente"
       },
       {
-          text: "Bajé 10 kilos en 2 meses gracias a mis entrenadores",
-          person: "Roberto Morales",
+          text: "100% recomendable, las máquinas están en muy buen estado, excelente ambiente, además que esta en un super precio ✅✨️",
+          person: "Sahori Olvera",
           type: "Cliente"
       }
   ],
@@ -214,5 +214,5 @@ export const FooterTexts = {
           }
       ]
   },
-  copyright: "©Gustavo Zuppa 2024. Derechos reservados"
+  copyright: "Derechos reservados"
 }
